@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Divs and Pans</title>
-        <link href="css/style.css">
-        <h1>Divs and Pan</h1>
-    </head>
-    <body>
-        <div>
-            <p>I am inside a div</p>
-                <pan>
-                    <p>I am inside a pan of a div</p>
-                </pan>
-        </div>
-        <pan>
-            <p>I am just inside a pan</p>
-        </pan>
-    </body>
+
+<head>
+    <title>Divs and Pans</title>
+    <link rel="Stylesheet" href="css/style.css">
+    <h1>Divs and Span</h1>
+</head>
+
+<body>
+    <div>
+        <p>I am inside a div</p>
+        <span class="outer">
+            <p class="outer">I am inside a pan of a div</p>
+            <p class="test-class"><span class="outer">In this lesson</span>, we’ll cover common Git commands used to manage your projects and to upload your work onto
+                GitHub. We refer to these commands as the basic Git workflow. When you’re using Git, these are the
+                commands that you’ll use 70-80% of the time. So if you can get these down, you’ll be more than halfway
+                done mastering Git!</p>
+        </span>
+    </div>
+    <span class="outer">
+        <p class="test-class">I am just inside a pan</p>
+    </span>
+</body>
+
 </html>
