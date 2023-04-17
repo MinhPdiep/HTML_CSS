@@ -1,6 +1,27 @@
 h1{
     text-align: center;
+    color: darkblue;
 }
 body{
-    background-color: gray;
+    background-color: rgb(194, 237, 245);
+}
+.margin{
+    margin: 30px;
+}
+.border {
+    background-image: url(../img/photo-1630061937831-5b8bc0a58548.jpeg);
+    border: 500px;
+    border: 2px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: red;
+    border-color: orange;
+    border-style: solid;
+    text-align: center;
+    padding: 150px;
+    background-color: antiquewhite;
+  
 }
