@@ -2,12 +2,15 @@ h1{
     text-align: center;
     color: white;
     font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    
+    font-size: 70px;
+    outline-style: solid;
+    padding: 20px;
 }
 body{
     background-color: black;
+    margin: 0 5% 0 5%;
 }
+
 .margin{
     margin: 30px;
     line-height: 30px;
@@ -17,39 +20,46 @@ body{
 
 .border {
     background-image: url(../img/photo-1630061937831-5b8bc0a58548.jpeg);
+    
     background-repeat: no-repeat;
-    background-position: left bottom;
-    border: 1px;
+    background-position: bottom left;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+    width: 40%;
     color: white;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 1.5;
     outline-width: 1px;
     outline-style: solid;
     outline-color: black;
     border-color: black;
     border-style: solid;
     text-align: center;
-    padding: 150px;
-    background-color: antiquewhite;
-
-  
+    padding: 150px;  
 }
 p{
     line-height: 1.5;
     font-weight: lighter;
     color: white
 } 
+
 a:link {
-    color: white;
+    color: lightblue;
     font-style: italic;
+    text-decoration: none;
 }
 a:visited{
-    color:white;
+    color:lightgray;
 }
-a:hover{
+a:hover, a:focus
+{
     color: blue;
     font-weight: bold;
 }
 a:active{
     color: red;
 }
+
